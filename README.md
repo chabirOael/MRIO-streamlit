@@ -41,13 +41,3 @@ For example, for 2022 data:
 ├── S_2022_all_.csv
 └── L_2022.csv
 ```
-
-For other years, create the appropriate year folder:
-```
-./data/2023/
-├── S_2023_all_.csv
-└── L_2023.csv
-```
-
-The app will automatically detect and load data from the year-specific folders.
-

@@ -31,13 +31,6 @@ The app provides:
 - 📊 Interactive pie chart visualization
 - 📈 Detailed breakdown metrics
 
-### Jupyter Notebook
-
-Or open the Jupyter notebook for analysis:
-```bash
-jupyter notebook test_all_PIE_Chart_S3LAB_.ipynb
-```
-
 ## Data Requirements
 
 **Important:** Place your CSV data files in the `data/<year>/` folder structure.

@@ -78,17 +78,17 @@ with st.sidebar:
         index=catalog["stressors"].index("CO2 - combustion - air") if "CO2 - combustion - air" in catalog["stressors"] else 0
     )
     
-    st.markdown("---")
-    st.subheader("⚙️ Advanced Options")
-    indirect_definition = st.radio(
-        "Domestic Indirect Definition",
-        options=["minus_direct", "exclude_diagonal"],
-        index=0,
-        help="""
-        - **minus_direct**: Domestic indirect = domestic total - direct (includes self-indirect)
-        - **exclude_diagonal**: Excludes entire diagonal contribution from domestic indirect
-        """
-    )
+    # st.markdown("---")
+    # st.subheader("⚙️ Advanced Options")
+    # indirect_definition = st.radio(
+    #     "Domestic Indirect Definition",
+    #     options=["minus_direct", "exclude_diagonal"],
+    #     index=0,
+    #     help="""
+    #     - **minus_direct**: Domestic indirect = domestic total - direct (includes self-indirect)
+    #     - **exclude_diagonal**: Excludes entire diagonal contribution from domestic indirect
+    #     """
+    # )
     
     st.markdown("---")
     generate_button = st.button("📊 Generate Pie Chart", type="primary", use_container_width=True)
